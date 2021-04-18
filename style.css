@@ -4,6 +4,7 @@ input[type=text]{
 
 #entrada{
     width: 40vw;
+    min-width: 300px;
 }
 
 
