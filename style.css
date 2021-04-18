@@ -1,0 +1,26 @@
+input[type=text]{
+    border-radius: 20px;
+}
+
+#entrada{
+    width: 40vw;
+    min-width: 400px;
+}
+
+
+#bt1, #bt2{
+    background-color: rgb(235, 234, 232);
+}
+
+#bt1:hover, #bt2:hover{
+    border-color: rgb(194, 192, 189);
+}
+
+#header{
+    width: 100%
+}
+
+
+#footer{
+    background-color: rgb(226, 225, 225);
+}
