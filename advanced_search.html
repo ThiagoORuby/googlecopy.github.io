@@ -17,6 +17,11 @@
         #footer{
             background-color: rgb(226, 225, 225);
         }
+        @media (max-width: 1199.98px) {
+            #info0, #info1, #info2, #info3, #info4{
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -36,62 +41,62 @@
             <h4 class = "p-2" style="color: rgb(182, 20, 20)">Advanced Search</h4>
             <hr>
             <form action="https://google.com/search">
-                <div class="row row-cols-3 g-3">
-                    <div class="col-2">
+                <div class="row row-cols-xl-3 row-cols-sm-2 g-3">
+                    <div class="col-xl-2 col-sm-4">
                     <label  class="col-form-label"> <strong>FIND PAGES WITH:</strong> </label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-8">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-sm-0" id="info0">
                     <span id="passwordHelpInline" class="form-text">
                         <strong>TO DO THIS IN THE SEARCH BOX</strong>
                     </span>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-sm-4">
                     <label  class="col-form-label">all these words:</label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-8">
                     <input type="text" class="form-control" name="as_q">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-sm-0" id="info1">
                     <span id="passwordHelpInline" class="form-text">
                         Type the important words: tri-colour rat terrier
                     </span>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-sm-4">
                     <label  class="col-form-label">this exact word or phrase:</label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-8">
                     <input type="text" class="form-control" name="as_epq">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-sm-0" id="info2">
                     <span id="passwordHelpInline" class="form-text">
                         Put exact words in quotes: "rat terrier"
                     </span>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-sm-4">
                     <label  class="col-form-label">any of these words:</label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-8">
                     <input type="text" class="form-control" name="as_oq">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-sm-0" id="info3"> 
                     <span id="passwordHelpInline" class="form-text">
                         Type OR between all the words you want: miniature OR standard
                     </span>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-sm-4">
                     <label  class="col-form-label">none of these words:</label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-8">
                     <input type="text" class="form-control" name="as_eq">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-sm-0" id="info4">
                     <span id="passwordHelpInline" class="form-text" >
                         Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
                     </span>
                     </div>
-                    <div class="col-12" align="center">
+                    <div class="col-xl-12" align="center">
                         <button type="submit" class="btn btn-primary">Advanced Search</button>
                     </div>
                 </div>
